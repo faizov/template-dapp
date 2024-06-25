@@ -9,9 +9,7 @@ import './index.scss';
 
 import { Home } from './pages/home';
 
-const ROUTES = [
-  { path: ROUTE.HOME, element: <Home /> },
-];
+const ROUTES = [{ path: ROUTE.HOME, element: <Home /> }];
 
 const router = createBrowserRouter([{ element: <App />, children: ROUTES }]);
 

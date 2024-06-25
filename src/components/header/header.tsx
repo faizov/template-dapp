@@ -19,8 +19,6 @@ function Header() {
           <Balance />
 
           <div className={styles.buttons}>
-            {/* {account && <ButtonLink to={ROUTE.CREATE_COLLECTION} text="Create" />} */}
-
             <Wallet />
           </div>
         </div>

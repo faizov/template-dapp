@@ -12,7 +12,6 @@ function ApiProvider({ children }: ProviderProps) {
   return <GearApiProvider initialArgs={{ endpoint: ADDRESS.NODE }}>{children}</GearApiProvider>;
 }
 
-
 function AlertProvider({ children }: ProviderProps) {
   return (
     <GearAlertProvider template={Alert} containerClassName={alertStyles.root}>
